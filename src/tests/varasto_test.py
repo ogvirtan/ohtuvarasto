@@ -94,3 +94,4 @@ class TestVarasto(unittest.TestCase):
 
         self.assertEqual(str(self.varasto), "saldo = 1, vielä tilaa 9")
     
+    ##jotain
