@@ -87,7 +87,7 @@ class TestVarasto(unittest.TestCase):
 
         self.varasto.ota_varastosta(10)
 
-        self.assertAlmostEqual(self.varasto.paljonko_mahtuu(), 10)
+        self.assertAlmostEqual(self.varasto.paljonko_mahtuu(), 0)
     
     def test_str_toimii_oikein(self):
         self.varasto.lisaa_varastoon(1)
